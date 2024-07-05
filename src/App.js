@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import freeCodeCampLogo from './imagenes/WhatsApp Image 2024-06-24 at 7.53.48 PM.jpeg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+    <div className="freecodecamp-logo-contenedor" >
+      <img 
+        src={freeCodeCampLogo}
+        className="freecodecamp-logo"
+        alt="Logo de freecodecamp" />
+
+    </div>
+
+    <div className='contenedor-calculadora'>
+      
+
+    </div>
     </div>
   );
 }
