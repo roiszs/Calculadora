@@ -1,6 +1,7 @@
 import './App.css';
 import freeCodeCampLogo from './imagenes/WhatsApp Image 2024-06-24 at 7.53.48 PM.jpeg'
 import Boton from './Componentes/Boton';
+import Pantalla from './Componentes/Pantalla';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     </div>
 
     <div className='contenedor-calculadora'>
+      <Pantalla />
       <div className='fila'>
         <Boton>1</Boton>
         <Boton>2</Boton>
