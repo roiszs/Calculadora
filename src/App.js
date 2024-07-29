@@ -2,6 +2,7 @@ import './App.css';
 import freeCodeCampLogo from './imagenes/WhatsApp Image 2024-06-24 at 7.53.48 PM.jpeg'
 import Boton from './Componentes/Boton';
 import Pantalla from './Componentes/Pantalla';
+import BotonClear from './Componentes/BotonClear';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Boton>.</Boton>
         <Boton>/</Boton></div>
       <div className='fila'></div>
+      <BotonClear> Clear </BotonClear>
 
     </div>
     </div>
