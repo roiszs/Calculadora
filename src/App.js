@@ -49,7 +49,9 @@ function App() {
         <Boton manejarClic={agregarInput}>.</Boton>
         <Boton manejarClic={agregarInput}>/</Boton></div>
       <div className='fila'></div>
-      <BotonClear manejarClic={agregarInput}> Clear </BotonClear>
+      <BotonClear manejarClear={() => setInput('')}> 
+        Clear 
+       </BotonClear>
       
 
     </div>
